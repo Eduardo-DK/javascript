@@ -4,10 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JavaScript</title>
+    <style>
+        button {
+            height: 100px;
+            width: 100px;
+        }
+    </style>
 </head>
 <body>
-    <h1 id="ola"></h1>
-    <p id="nome"></p>
-    <script src="script.js"></script>
+    <h1>Java Script</h1>
+    <p>primeiro paragrafo</p>
+    <p id="nomepr()">ollá</p>
+    <button onclick="mudarnome()">nome aqui</button>
+
+    <script>
+        function mudarnome() {
+            let nome = prompt("Qual é o seu nome?");
+            document.getElementById("nomepr").textContent = "olá" + nome
+        }
+    </script>
 </body>
 </html>
