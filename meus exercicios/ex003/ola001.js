@@ -24,7 +24,7 @@ rl.question("qual é o seu nome? ", (nome) => {
 
     (nome) => { ... } → Quando o usuário responde, o valor digitado é armazenado na variável nome e a função dentro das { } é executada. 
     */
-    console.log('olá, ${nome}! Bem-vindo ao mundo da programação.');
+    console.log(`olá, ${nome}! Bem-vindo ao mundo da programação.`);
     /*
      Usa console.log() para exibir a mensagem de boas-vindas no terminal.
 
