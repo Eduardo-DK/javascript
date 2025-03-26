@@ -1,0 +1,10 @@
+quando botão for presionado
+    usuario = formulario -> nome
+    telefone = formulario -> telefone
+
+    exibe mensagen: "olá {usuario}, sua incrição foi realizada! Caso você seja sorteadeo, ligaremos para seu n°{telefone}"
+
+
+pergunte Nome e numero
+exiba a mensagen
+"olá {usuario}, sua incrição foi realizada! Caso você seja sorteadeo, ligaremos para seu n°{telefone}"
