@@ -17,10 +17,11 @@
      <h1>Hello World!</h1>
     <p>Introduction</p>
     <script>
-        var n1 = Number(window.prompt('digite um numero:'))
-        var n2 = Number(window.prompt('digite outro numero:'))
-        var s = n1 + n2
-        window.alert(`a soma é ${s}`)
+        var nome = window.prompt('qual é o seu nome?')
+        document.write(`seu nome tem ${nome.length} letra<br>`)
+        document.write(`seu nome é ${nome.toUpperCase()} <br>`)
+        document.write(`seu nome é ${nome.toLocaleLowerCase()}`)
+        
     </script>
 </body>
 </html>
