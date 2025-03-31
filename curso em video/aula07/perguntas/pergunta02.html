@@ -1,1 +1,27 @@
 <!-- como fazer com q um numero digitado em um prompt() possa ser usado em calculos? -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: rgba(138, 70, 202, 0.692);
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.3em;
+        }
+    </style>
+</head>
+<body>
+    <h1>exercio 02</h1>
+    <p>como fazer com q um numero digitado em um prompt() possa ser usado em calculos?</p>
+    <script>
+        var n1 = Number.parseInt(window.prompt('digite um número:'))
+        var n2 = Number.parseInt(window.prompt('digite outro número:'))
+        var s = n1 + n2 // 
+        document.writeln(`a soma entre os numeros é: ${s}`)
+    </script>
+</body>
+</html>
