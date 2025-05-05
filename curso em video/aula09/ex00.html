@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste do DOM</title>
+    <style>
+        body{
+            background-color: rgb(67, 2, 128);
+            color: rgba(255, 255, 255, 0.76);
+            font: normal 18pt arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>PRIMEIRO ARQUIVO DOM</h1>
+    <p>aqui é o resultado</p>
+    <p>aprendendo a usar <strong>DOM</strong> no JS</p>
+    <div id="msg">clique em mim</div>
+    <script>
+        var p1 = window.document.getElementsByTagName('p')[0]
+        var p2 = window.document.getElementsByTagName('p')[1]
+        var d = window.document.getElementById('msg')
+
+        window.document.write(`está escrito no primeiro paragrafo: ` + p1.innerText)
+
+        p1.style.backgroundColor = "blue" 
+        p2.style.color = 'red' 
+        d.style.textAlign = 'center'
+    </script>
+</body>
+</html>
