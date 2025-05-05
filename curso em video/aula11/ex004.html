@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Paises</h1>
+    digite o seu pais: <input type="text" name="paistxt" id="paistxt">
+    <input type="button" value="verificar" onclick="calcular()">
+    <div id="res">
+
+    </div>
+    <script>
+        function calcular() {
+            var paistx = document.querySelector('input#paistxt')
+            var pais = Text(paistx.ariaAtomic)
+            var res = document.querySelector('div#res')
+            res.innerHTML = `seu pais é ${paistxt}`
+        }
+    </script>
+</body>
+</html>
