@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background: linear-gradient(to left, #8A2BE2, rgb(55, 0, 128));
+            color: azure;
+            font: normal 18pt white;
+        }
+        div#local {
+            background-color: rgb(5, 141, 0);
+            font: arial;
+            height: 200px;
+            width: 200px;
+            line-height: 200px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="local">
+        interaja...
+    </div>
+
+    <script>
+        var a = document.getElementById('local') 
+        a.addEventListener('click', clicar)
+        a.addEventListener('mouseenter',entrar)
+        a.addEventListener('mouseout', sair)
+
+        function clicar() {
+            a.innerText = 'click'
+        }
+        function entrar() {
+            a.innerText = 'enter'
+        }
+        function sair() {
+            a.innerText = 'saiu'
+        }
+
+    </script>
+
+</body>
+</html>
