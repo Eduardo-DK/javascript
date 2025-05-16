@@ -1,0 +1,23 @@
+body {
+    background-color: blue;
+}
+
+header {
+    background-color: rgb(21, 138, 89);
+    width: 600px;
+    margin: auto;
+    text-align: center;
+    padding: 1px;
+}
+
+section {
+    padding: 1px;
+    background-color: white;    
+    color: black;
+    width: 600px;
+    margin: auto;
+}
+
+select#flista {
+    width: 150px;
+}
