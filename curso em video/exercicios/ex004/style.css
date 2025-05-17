@@ -21,3 +21,9 @@ section {
 select#flista {
     width: 150px;
 }
+
+div#res {
+    font-size: 1.1em;
+    padding: 10px;
+    padding-left: 60px;
+}
